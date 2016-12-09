@@ -3,37 +3,42 @@
   <testsuite name="fastlane.lanes">
     
       
-      <testcase classname="fastlane.lanes" name="0: prompt" time="12.706278">
+      <testcase classname="fastlane.lanes" name="0: prompt" time="4.043259">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_pull" time="1.177101">
+      <testcase classname="fastlane.lanes" name="1: git_pull" time="1.369881">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: increment_build_number" time="0.800856">
+      <testcase classname="fastlane.lanes" name="2: increment_build_number" time="2.208302">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: git_add" time="0.168346">
+      <testcase classname="fastlane.lanes" name="3: git_add" time="2.316759">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_commit" time="0.24627">
+      <testcase classname="fastlane.lanes" name="4: git_commit" time="0.709412">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: gym" time="43.077884">
+      <testcase classname="fastlane.lanes" name="5: push_to_git_remote" time="46.657388">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: crashlytics" time="15.878572">
+      <testcase classname="fastlane.lanes" name="6: gym" time="44.826763">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: crashlytics" time="27.986765">
         
       </testcase>
     

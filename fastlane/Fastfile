@@ -28,7 +28,7 @@ lane :apps_match do
   	buildNumber= increment_build_number()
   	
   	git_add(path:".")
-  	git_commit(path:".", message:"commit")
+  	git_commit(path:".", message:buildNumber)
   	push_to_git_remote(tags:"onetag")
 
 
