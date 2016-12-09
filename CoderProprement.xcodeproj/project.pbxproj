@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53221E9F6CBBDA7C315E2B51 /* Pods_CoderProprement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F299F33DFD437CC272E67E /* Pods_CoderProprement.framework */; };
 		B8098B9C1DFA9E4300E53CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8098B9B1DFA9E4300E53CC9 /* AppDelegate.swift */; };
 		B8098B9E1DFA9E4300E53CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8098B9D1DFA9E4300E53CC9 /* ViewController.swift */; };
 		B8098BA11DFA9E4300E53CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8098B9F1DFA9E4300E53CC9 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D2C42E595F0D1B024CAB323 /* Pods-CoderProprement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoderProprement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoderProprement/Pods-CoderProprement.debug.xcconfig"; sourceTree = "<group>"; };
 		B8098B981DFA9E4300E53CC9 /* CoderProprement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderProprement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8098B9B1DFA9E4300E53CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8098B9D1DFA9E4300E53CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		B8098BA21DFA9E4300E53CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8098BA51DFA9E4300E53CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8098BA71DFA9E4300E53CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F299F33DFD437CC272E67E /* Pods_CoderProprement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoderProprement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93E0C3A2338F3FDA98FD38C /* Pods-CoderProprement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoderProprement.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoderProprement/Pods-CoderProprement.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53221E9F6CBBDA7C315E2B51 /* Pods_CoderProprement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CD71EE8DA7834A9AEA0C7FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2C42E595F0D1B024CAB323 /* Pods-CoderProprement.debug.xcconfig */,
+				F93E0C3A2338F3FDA98FD38C /* Pods-CoderProprement.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B8098B8F1DFA9E4300E53CC9 = {
 			isa = PBXGroup;
 			children = (
 				B8098B9A1DFA9E4300E53CC9 /* CoderProprement */,
 				B8098B991DFA9E4300E53CC9 /* Products */,
+				2CD71EE8DA7834A9AEA0C7FC /* Pods */,
+				D09B245D0D71C859F5171FC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = CoderProprement;
 			sourceTree = "<group>";
 		};
+		D09B245D0D71C859F5171FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8F299F33DFD437CC272E67E /* Pods_CoderProprement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8098BAA1DFA9E4300E53CC9 /* Build configuration list for PBXNativeTarget "CoderProprement" */;
 			buildPhases = (
+				7C979DE5B97F6755AFD853B8 /* [CP] Check Pods Manifest.lock */,
 				B8098B941DFA9E4300E53CC9 /* Sources */,
 				B8098B951DFA9E4300E53CC9 /* Frameworks */,
 				B8098B961DFA9E4300E53CC9 /* Resources */,
+				4FE0878A36AC6E8E60992A63 /* [CP] Embed Pods Frameworks */,
+				9AAFB1E746F341C29026DC8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +123,8 @@
 				TargetAttributes = {
 					B8098B971DFA9E4300E53CC9 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 2L248S8SLQ;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -130,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FE0878A36AC6E8E60992A63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoderProprement/Pods-CoderProprement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C979DE5B97F6755AFD853B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AAFB1E746F341C29026DC8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoderProprement/Pods-CoderProprement-resources.sh\"\n\"${PODS_ROOT}/Fabric/run\" fc9d87b2efd9490e1a216989a7ebb86e7d59dfed 34fe58a4e2ba0b70c2542972f64f088e9b50c159f18624ff3bd2ac2f453874f4";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8098B941DFA9E4300E53CC9 /* Sources */ = {
@@ -256,25 +332,37 @@
 		};
 		B8098BAB1DFA9E4300E53CC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2C42E595F0D1B024CAB323 /* Pods-CoderProprement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 2L248S8SLQ;
 				INFOPLIST_FILE = CoderProprement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.iut.CoderProprement;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.appsolute.IUTDemo20161;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d1bc019e-e121-406e-9973-5191e2f15dad";
+				PROVISIONING_PROFILE_SPECIFIER = "match InHouse fr.appsolute.IUTDemo20161";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B8098BAC1DFA9E4300E53CC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93E0C3A2338F3FDA98FD38C /* Pods-CoderProprement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 2L248S8SLQ;
 				INFOPLIST_FILE = CoderProprement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.iut.CoderProprement;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.appsolute.IUTDemo20161;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d1bc019e-e121-406e-9973-5191e2f15dad";
+				PROVISIONING_PROFILE_SPECIFIER = "match InHouse fr.appsolute.IUTDemo20161";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -297,6 +385,7 @@
 				B8098BAC1DFA9E4300E53CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
