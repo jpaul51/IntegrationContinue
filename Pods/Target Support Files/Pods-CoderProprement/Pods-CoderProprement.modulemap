@@ -1,0 +1,6 @@
+framework module Pods_CoderProprement {
+  umbrella header "Pods-CoderProprement-umbrella.h"
+
+  export *
+  module * { export * }
+}

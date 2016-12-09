@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "94944FEA3C371BDBBE08643529EFB091B05F1DC2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "97283A880A9503FE57FEA7E9CCCAE22DCCF8C753" : 9223372036854775807,
+    "94944FEA3C371BDBBE08643529EFB091B05F1DC2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB267784-9A31-495D-8E64-2280EE5CA751",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "97283A880A9503FE57FEA7E9CCCAE22DCCF8C753" : "..",
+    "94944FEA3C371BDBBE08643529EFB091B05F1DC2" : "CoderProprement\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CoderProprement",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CoderProprement.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jpaul51\/IntegrationContinue.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94944FEA3C371BDBBE08643529EFB091B05F1DC2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jpaul51\/Ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97283A880A9503FE57FEA7E9CCCAE22DCCF8C753"
+    }
+  ]
+}
