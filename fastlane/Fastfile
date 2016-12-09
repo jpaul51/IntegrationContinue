@@ -29,7 +29,7 @@ lane :apps_match do
   	
   	git_add(path:".")
   	git_commit(path:".", message:"commit")
-
+  	push_to_git_remote(tags:"onetag")
 
 
 
